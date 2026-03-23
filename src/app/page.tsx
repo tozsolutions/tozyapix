@@ -380,16 +380,8 @@ export default function HomePage() {
         <div className="overflow-hidden">
           <div className="partners-track flex items-center gap-6 w-max">
             {[...PARTNERS, ...PARTNERS].map((p, i) => (
-              <div key={i}
-                className="flex items-center justify-center w-44 h-20 rounded-xl bg-white border border-gray-100 shadow-sm hover:border-primary/20 hover:shadow-md transition-all shrink-0 px-6 cursor-default"
-                style={{ filter: 'grayscale(1) opacity(0.55)' }}
-                onMouseEnter={e => {
-                  (e.currentTarget as HTMLElement).style.filter = 'grayscale(0) opacity(1)'
-                }}
-                onMouseLeave={e => {
-                  (e.currentTarget as HTMLElement).style.filter = 'grayscale(1) opacity(0.55)'
-                }}>
-                <span className="font-display font-bold text-base text-dark-700">{p.name}</span>
+              <div key={i} className="partner-logo-item flex items-center justify-center w-44 h-20 rounded-xl bg-white border border-gray-100 shadow-sm hover:border-blue-200 hover:shadow-md transition-all shrink-0 px-6 cursor-default">
+                <span className="font-display font-bold text-base text-gray-400 group-hover:text-gray-800 transition-colors">{p.name}</span>
               </div>
             ))}
           </div>
