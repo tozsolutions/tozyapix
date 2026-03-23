@@ -8,8 +8,9 @@ export async function generateStaticParams() {
   return PRODUCT_CATEGORIES.map(c => ({ slug: c.slug }))
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const cat = PRODUCT_CATEGORIES.find(c => c.slug === params.slug)
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const cat = PRODUCT_CATEGORIES.find(c => c.slug === slug)
   if (!cat) return {}
   return {
     title: `${cat.title} | Toz Yapı Teknolojileri Ankara`,
@@ -25,8 +26,9 @@ const FORMAT_META: Record<string, { label: string; ext: string; color: string }>
   sertifika: { label: 'CE Sertifikası',   ext: 'PDF',  color: 'bg-dark'       },
 }
 
-export default function ProductCategoryPage({ params }: { params: { slug: string } }) {
-  const cat = PRODUCT_CATEGORIES.find(c => c.slug === params.slug)
+export default async function ProductCategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const cat = PRODUCT_CATEGORIES.find(c => c.slug === slug)
   if (!cat) notFound()
 
   // Only show downloads that exist for this product
