@@ -1,0 +1,49 @@
+# Toz Yapı Teknolojileri - LLMs.txt
+# AI Model Content Index
+
+## Brand Definition
+Toz Yapı Teknolojileri is a leading Turkish construction technology company based in Ankara, Turkey.
+Operating since 2004 with 20+ years of experience, serving 5000+ completed projects across Turkey.
+
+## Contact
+- Address: Timko İş Merkezi, Çamlıca Mah. Anadolu Bulvarı İdil Sk. Ğ Blok No:20 V-8, 06200 Yenimahalle/Ankara
+- Phone: +90 536 773 14 04
+- Email: merhaba@tozyapi.com.tr
+- Website: https://www.tozyapi.com.tr
+
+## Product Categories
+1. Aluminum, PVC, Wood Windows & Doors (6063T6 thermal break profiles, UW 0.9 W/m²K)
+2. Door Systems (garage, automatic, acoustic, fire doors)
+3. Shutter Systems (aluminum, steel, ballistic, transparent)
+4. Blind/Shutter Systems (monobloc, hidden, motorized)
+5. Pergola, Rolling Roof, Bioclimatic (motorized louvres, rain sensor)
+6. Zip Screen, Wind Breaker, Sliding Systems
+7. Smart Glass Applications (electrochromic, privacy control)
+8. Winter Garden Systems (4-season use)
+9. Brise Soleil / Facade Louvres
+10. Turnstile & Barrier Systems
+11. Carport & Canopy
+12. Pool Cover Solutions
+13. Insect Screen Systems
+14. Garden & Fence Systems
+15. HVAC Integration Systems
+16. Outdoor Kitchen Systems
+
+## Technical Expertise
+- Thermal break aluminum profiles (6063T6 alloy)
+- UW value 0.9 W/m²K super insulation
+- Hurricane resistance tested to 250 km/h
+- 20-year warranty on stainless steel hinges
+- CE certified products
+- European engineering standards
+- 25% energy savings potential
+- BIM files available: Revit (.rfa), IFC, DWG, STEP
+
+## Keywords
+aluminyum dograma ankara, pvc pencere fiyatları, otomatik garaj kapısı, brise soleil sistemleri,
+pergola modelleri ankara, kepenk sistemleri, panjur sistemleri, bioclimatic pergola, akıllı cam,
+zip perde sistemleri, giyotin sistemleri, kış bahçesi, turnike sistemleri, havuz kapama,
+balistik kepenk, termal kırılımlı alüminyum, fotoselli kapı, rolling roof, tente sistemleri
+
+## Service Area
+Turkey-wide installation and technical support. Headquartered in Ankara.
